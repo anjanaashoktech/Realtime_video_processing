@@ -18,13 +18,17 @@ pip install -r requirements.txt
 
 ## Usage
 Run with default webcam:
+```
  python realtime_capture_processing.py --source 0
+```
 Run with RTSP stream:
+```
 python realtime_capture_processing.py --source "rtsp://username:password@camera-ip:554/stream"
-
+```
 **Optional arguments:**
+```
 --max-queue-size: max frames to buffer between capture and processing (default: 64)
 --sim-delay: simulated processing delay in seconds (default: 0.03)
-
+```
 
 
